@@ -1,0 +1,108 @@
+/*
+  Custom styles for Trackster App
+*/
+/* HEADER SECTION */
+html, body {
+  font-size: 16px;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.header {
+  padding: 2.5rem 0;
+  width: 100%;
+  background-color: rgb(35, 2, 63);
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-family: Righteous;
+  color: rgb(255, 0, 171);
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#search-input {
+  display: inline;
+  border-radius: 19px;
+  height: 2.5rem;
+}
+
+input::placeholder {
+  color: rgb(191,  191, 191);
+}
+
+input:focus {
+  outline: none;
+}
+
+#button-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 0, 171);
+  border-radius: 19px;
+  height: 2.5rem;
+  margin-left: .5rem;
+}
+
+#button-search:hover {
+  background-color: rgb(255, 102, 204);
+  cursor: pointer;
+}
+/* Atrributes Row */
+
+.attributes {
+  display: block;
+  width: 100%;
+  background-color: rgb(104, 0, 255);
+  padding: .35rem 0;
+}
+
+.attribute {
+  display: inline;
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* Track List */
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.track {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 4rem;
+  border-bottom: 1px solid #B5B4A4;
+  font-family: "Work Sans";
+  width: 100%;
+}
+
+.track {
+  padding: 1rem;
+}
+
+.track:hover {
+  background-color: #F2F2F2;
+}
+
+i {
+  display: inline;
+}
+
+i.fa.fa-play-circle {
+  color: rgb(255, 0, 171);
+}
+
+i.fa.fa-play-circle:hover {
+  color: rgb(255, 102, 204);
+  cursor: pointer;
+}
